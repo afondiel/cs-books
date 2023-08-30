@@ -2,11 +2,13 @@
 
 # Computer Science (CS) Books
 
-Computer science books from algorithms, data structure, programming, to data science, AI and much more.
+This is a Computer Science books and resources. 
 
->My heartfelt gratitude goes out to every author and researcher who has worked tirelessly on >these incredible books that have not only changed the world but also enriched our works and >lives. 
+From algorithms, data structure, programming, to data science, AI and much more.
 
-Grateful :pray: 
+>### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books that have not only changed the world but also enriched our works and lives. 
+
+Regards, 
 
 [@Muntu](https://github.com/afondiel/)
 
