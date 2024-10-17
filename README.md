@@ -2,11 +2,17 @@
 
 # Computer Science (CS) Books
 
-This is a Computer Science books and resources. 
+This is a curated collection of Computer Science books and resources. Topics range from algorithms, data structures, and programming to data science, artificial intelligence, and more.
 
-From algorithms, data structure, programming, to data science, AI and much more.
+---
 
->### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books that have not only changed the world but also enriched our works and lives. 
+**Disclaimer**:  
+All books and resources are the property of their respective authors or publishers. This repository is for educational purposes only. For any copyrighted materials, please refer to the original publisher for usage rights.
+
+---
+
+
+>### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books, which have not only shaped the field of Computer Science but also enriched our knowledge and lives. 
 
 Regards, 
 
