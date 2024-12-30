@@ -11,6 +11,54 @@ All books and resources are the property of their respective authors or publishe
 
 ---
 
+## 📚 Topic Overview
+
+### 📖 Artificial Intelligence
+- [AI](ai/): General Artificial Intelligence resources and books
+- [NLP](ai/nlp/): Natural Language Processing resources and books
+- [Deep Learning](ai/deep-learning/): Deep Learning resources and books
+- [Machine Learning](ai/machine-learning/): Machine Learning resources and books
+- [Computer Vision](ai/computer-vision/): Computer Vision resources and books
+- [Generative AI](ai/generative-ai/): Generative AI resources and books
+- [Agentics AI](ai/agents/): Agentics AI resources and books
+- [AGI](ai/agi/): Artificial General Intelligence resources and books
+- [ASI](ai/asi/): Artificial Super Intelligence resources and books
+
+### 🚗 Automotive
+- [Automotive](automotive/): Automotive standards and related books
+
+### ☁️ Cloud Computing
+- [Cloud Computing](cloud/): Cloud computing resources and books
+
+### 💻 Computer Science
+- [Computer Science](computer-science/): General Computer Science resources and books
+
+### 📊 Data Science
+- [Data Science](data-science/): Data Science resources and books
+
+### 🌐 Edge Computing
+- [Edge Computing](edge/): Edge computing resources and books
+
+### 🔧 Embedded Systems
+- [Embedded Systems](embedded-systems/): Embedded Systems resources and books
+
+### 🎮 Game Development
+- [Game Development](game/): Game development resources and books
+
+### 🏥 Healthcare
+- [Healthcare](healthcare/): Healthcare technology resources and books
+
+### 🖥️ Operating Systems
+- [Operating Systems](operating-system/): Operating System resources and books
+
+### 🤖 Robotics
+- [Robotics](robotics/): Robotics resources and books
+
+### 🔒 Security
+- [Security](security/): Security resources and books
+
+### 📡 Signal Processing
+- [Signal Processing](signal-processing/): Signal Processing resources and books
 
 >### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books, which have not only shaped the field of Computer Science but also enriched our knowledge and lives. 
 
