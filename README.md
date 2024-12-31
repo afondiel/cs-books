@@ -28,10 +28,11 @@ All books and resources are the property of their respective authors or publishe
 
 ### 🚗 Automotive
 - [Automotive](automotive/): Automotive standards and related books
-- [Electric Vehicles](automotive/electric-vehicles/): Resources and books on electric vehicles
-- [Autonomous Vehicles](automotive/autonomous-vehicles/): Resources and books on autonomous vehicles
-- [Vehicle Safety](automotive/vehicle-safety/): Resources and books on vehicle safety
-- [Automotive Software](automotive/software/): Resources and books on automotive software
+- [ADAS](automotive/adas/): Advanced Driver Assistance Systems resources and books
+- [Safety](automotive/safety/): Resources and books on vehicle safety
+- [Self-Driving Cars](automotive/self-driving-cars/): Resources and books on self-driving cars
+- [Standards](automotive/standards/): Automotive standards and regulations resources
+
 ### ☁️ Cloud Computing
 - [Cloud Computing](cloud/): Cloud computing resources and books
 
