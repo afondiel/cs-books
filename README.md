@@ -15,18 +15,23 @@ All books and resources are the property of their respective authors or publishe
 
 ### 📖 Artificial Intelligence
 - [AI](ai/): General Artificial Intelligence resources and books
-- [NLP](ai/nlp/): Natural Language Processing resources and books
-- [Deep Learning](ai/deep-learning/): Deep Learning resources and books
 - [Machine Learning](ai/machine-learning/): Machine Learning resources and books
-- [Computer Vision](ai/computer-vision/): Computer Vision resources and books
+- [Deep Learning](ai/deep-learning/): Deep Learning resources and books
+- [Computer Vision](computer-vision/): Computer Vision resources and books
+- [NLP](ai/nlp/): Natural Language Processing resources and books
 - [Generative AI](ai/generative-ai/): Generative AI resources and books
 - [Agentics AI](ai/agents/): Agentics AI resources and books
+    - [AI Agents](ai/ai-agents/): AI Agents resources and books
+    - [Embodied Agents](robotics/): Embodied Agents resources and books
 - [AGI](ai/agi/): Artificial General Intelligence resources and books
 - [ASI](ai/asi/): Artificial Super Intelligence resources and books
 
 ### 🚗 Automotive
 - [Automotive](automotive/): Automotive standards and related books
-
+- [Electric Vehicles](automotive/electric-vehicles/): Resources and books on electric vehicles
+- [Autonomous Vehicles](automotive/autonomous-vehicles/): Resources and books on autonomous vehicles
+- [Vehicle Safety](automotive/vehicle-safety/): Resources and books on vehicle safety
+- [Automotive Software](automotive/software/): Resources and books on automotive software
 ### ☁️ Cloud Computing
 - [Cloud Computing](cloud/): Cloud computing resources and books
 
@@ -38,7 +43,8 @@ All books and resources are the property of their respective authors or publishe
 
 ### 🌐 Edge Computing
 - [Edge Computing](edge/): Edge computing resources and books
-
+- [TinyML](edge/tinyML): TinyML resources and books
+- [Neuromorphic Computing](edge/neuromorphic-computing): Neuromorphic Computing resources and books
 ### 🔧 Embedded Systems
 - [Embedded Systems](embedded-systems/): Embedded Systems resources and books
 
@@ -65,5 +71,4 @@ All books and resources are the property of their respective authors or publishe
 Regards, 
 
 [@Muntu](https://github.com/afondiel/)
-
 
