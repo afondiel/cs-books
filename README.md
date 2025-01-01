@@ -14,7 +14,7 @@ All books and resources are the property of their respective authors or publishe
 
 Open the file directly or use the **"Download"** button if the preview fails. GitHub cannot preview large files (typically over 10MB). For any other questions, please raise an issue.
 
-## 🔍 Library Map
+## 🔍 Navigation Map
 
 ### 📖 Artificial Intelligence
 - [AI](ai/): General Artificial Intelligence resources and books
