@@ -37,8 +37,17 @@ All books and resources are the property of their respective authors or publishe
 - [Cloud Computing](cloud/): Cloud computing resources and books
 
 ### 💻 Computer Science
-- [Computer Science](computer-science/): General Computer Science resources and books
-
+- [Programming](computer-science/): Resources and books on programming
+    - [Algorithms](computer-science/algorithms/): Resources and books on algorithms
+    - [Data Structures](computer-science/data-structures/): Resources and books on data structures
+    - [Design Patterns](computer-science/design-patterns/): Resources and books on design patterns
+    - [Languages](computer-science/programming/): Resources and books on programming languages
+- [Parallel Computing](computer-science/parallel-computing/): Resources and books on parallel computing
+- [Distributed Computing](computer-science/distributed-computing/): Resources and books on distributed computing
+- [High-Performance Computing](computer-science/high-performance-computing/): Resources and books on High-Performance Computing (HPC)
+- [Quantum Computing](computer-science/quantum-computing/): Resources and books on quantum computing
+- [Computational Photonics](computer-science/computational-photonics/): Resources and books on computational photonics
+- [Software Engineering](computer-science/sw-engineering/): Resources and books on software engineering
 ### 📊 Data Science
 - [Data Science](data-science/): Data Science resources and books
 
