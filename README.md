@@ -2,16 +2,19 @@
 
 # Computer Science (CS) Books
 
+## Overview
+
 This is a curated collection of Computer Science books and resources. Topics range from algorithms, data structures, and programming to data science, artificial intelligence, and more.
 
----
+## **Disclaimer**  
 
-**Disclaimer**:  
 All books and resources are the property of their respective authors or publishers. This repository is for educational purposes only. For any copyrighted materials, please refer to the original publisher for usage rights.
 
----
+## 📚 Accessing Books
 
-## 📚 Topic Overview
+Open the file directly or use the **"Download"** button if the preview fails. GitHub cannot preview large files (typically over 10MB). For any other questions, please raise an issue.
+
+## 🔍 Library Map
 
 ### 📖 Artificial Intelligence
 - [AI](ai/): General Artificial Intelligence resources and books
@@ -75,6 +78,11 @@ All books and resources are the property of their respective authors or publishe
 
 ### 📡 Signal Processing
 - [Signal Processing](signal-processing/): Signal Processing resources and books
+
+## Contributing
+Contributions are welcome! If you'd like to suggest a book or resource, please fork the repository, add your suggestion, and submit a pull request. Ensure that the resources you add are reputable and relevant to computer science.
+
+---
 
 >### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books, which have not only shaped the field of Computer Science but also enriched our knowledge and lives. 
 
