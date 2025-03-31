@@ -12,7 +12,7 @@ All books and resources are the property of their respective authors or publishe
 
 ## Getting Started
 
-Below, books are organized by **[Topics](#-topics)** and **[Real-World Application](#-real-world-application)** for dual academic/practical focus. Each section contains a curated list of books with reference links to their Google Drive folders.
+Below, books are organized by **[Topics](#-topics)** and **[Real-World Application](#-real-world-application)** for dual academic/practical focus. Each section contains a curated list of books with reference links to their [Google Drive](https://drive.google.com/drive/folders/17_MIiPygTdR3heNwNf7FEy1Ri4atJS-u?usp=sharing) folders.
 
 ### Cloning the Repository
 
