@@ -12,111 +12,149 @@ All books and resources are the property of their respective authors or publishe
 
 ## Getting Started
 
-### Cloning the Repository
-The full repo includes large files managed with Git LFS. To clone efficiently:
+Below, books are organized by **[Topics](#-topics)** and **[Real-World Application](#-real-world-application)** for dual academic/practical focus. Each section contains a curated list of books with reference links to their Google Drive folders.
 
-#### Full Clone
+### Cloning the Repository
+
 ```bash
 git clone https://github.com/afondiel/cs-books.git
-cd cs-books
-git lfs pull
 ```
-
-#### Selective Clone (Recommended)
-Clone only specific branches or files to save time and bandwidth:
-```bash
-git clone --no-checkout https://github.com/afondiel/cs-books.git
-cd cs-books
-git sparse-checkout init --cone
-git sparse-checkout set <path/to/desired/directory>  # Example: only ai/nlp books
-git checkout main # This will download only the files in the specified "ai/nlp"
-```
-When you need to update your repository, use:
-```bash
-git pull
-```
-
-Git will only fetch the objects needed for the sparse checkout paths you've specified
-
-If you need a specific large file that wasn't initially downloaded:
+> [!IMPORTANT] 
+> Note for Fork Owners: The repository history was rewritten to remove all PDFs, which are now hosted on Google Drive. Please update your fork by running:
 
 ```bash
-git lfs pull --include="path/to/large/file" # (e.g., `edge/tinyML`).
+git fetch origin
+git reset --hard origin/main
 ```
+Or rebase your changes onto the new history.
 
-### Downloading Individual Books
-Don’t want to clone? Can't access the file? 
-Open the file and select the direct **"Download"** button. 
+## 📚 Book Stack
 
-> [!NOTE]
-> If the preview fails, **DON'T PANIC!** GitHub sometimes fails to preview large files, typically those over 10MB.
+### 📖 Topics
+#### 🖥️ Computer Architecture 
 
-## 🔍 Navigation Tree
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Computer Architecture (Root) | Core architecture books      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](https://drive.google.com/drive/u/1/folders/14rQdBPBLzHTu45W-K6fcmMSWNBheFDp3) |
+| Operating Systems         | OS-related books              | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Quantum Computing         | Quantum computing books       | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Embedded Systems          | Embedded Computer Books       | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Neuromorphic Computing    | Neuromorphic books            | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| High-Performance Computing| HPC books                     | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
 
-### 📚 Category
-#### 🖥️ Computer Architecture
-- [Computer Architecture](computer-architecture/) - Core architecture books
-- [Operating Systems](operating-systems/) - OS-related books
-- [Quantum Computer](computer-science/quantum-computing/) - Quantum computing books
-- [Embedded Computer](embedded-systems/) - Embedded Computer Books
-- [Neuromorphic Computer](computer-science/neuromorphic-computing/) - Neuromorphic books
-- [High-Performance Computing](computer-science/high-performance-computing/) - HPC books
 
 #### 💻 Computer Programming
-- [Algorithms](computer-science/programming/algorithms/) - Algorithm books
-- [Data Structures](computer-science/programming/data-structures/) - Data structure books
-- [Design Patterns](computer-science/programming/design-patterns/) - Design pattern books
-- [Languages](computer-science/programming/languages/) - Language-specific books
-- [Parallel Programming](computer-science/parallel-computing/) - Parallel computing books
-    - [Distributed Computing](computer-science/distributed-computing/) - Distributed computing books
-    - [Shared Computing](computer-science/shared-computing/) - Shared computing books
-- [Software Engineering](computer-science/software-engineering/) - Software engineering books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Computer Programming (Root) | Programming-related books     | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Algorithms                | Algorithm books               | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Data Structures           | Data structure books          | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Design Patterns           | Design pattern books          | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Languages                 | Language-specific books       | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Parallel Programming      | Parallel computing books      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Distributed Computing     | Distributed computing books   | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Shared Computing          | Shared computing books        | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Software Engineering      | Software engineering books    | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
+
 #### 🤖 Artificial Intelligence
-- [Artificial Intelligence](ai/) - AI books (root)
-- [Machine Learning](ai/machine-learning/) - ML books
-- [Deep Learning](ai/deep-learning/) - DL books
-- [Computer Vision](computer-vision/) - CV books
-- [NLP](ai/nlp/) - NLP books
-- [Generative AI](ai/generative-ai/) - Generative AI books
-- [Agentics AI](ai/agents/) - AI agent books
-    - [AI Agents](ai/ai-agents/) - General AI agents
-    - [Embodied Agents](robotics/) - Embodied agents
-- [AGI](ai/agi/) - AGI books
-- [ASI](ai/asi/) - ASI books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Artificial Intelligence (Root) | AI-related books           | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Machine Learning          | ML books                      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Deep Learning             | DL books                      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Computer Vision           | CV books                      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| NLP                       | NLP books                     | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Generative AI             | Generative AI books           | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Agentics AI               | AI agent books                | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| AGI                       | AGI books                     | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| ASI                       | ASI books                     | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 📊 Data Science
-- [Data Science](data-science/) - Data science books
+
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Data Science (Root)       | Data science books            | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### ☁️ Cloud Computing
-- [Cloud Computing](cloud/) - Cloud computing books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Cloud Computing (Root)    | Cloud computing books          | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🌐 Edge Computing
-- [Edge Computing](edge/) - General edge computing
-- [Edge-AI](edge/) - Edge AI books
-- [TinyML](edge/tinyML/) - TinyML books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Edge Computing (Root)     | General edge computing books   | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Edge-AI                   | Edge AI books                 | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| TinyML                    | TinyML books                  | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🔧 Embedded Systems
-- [Embedded Systems](embedded-systems/) - Embedded systems books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Embedded Systems (Root)   | Embedded systems books         | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 📡 Signal Processing
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Signal Processing (Root)  | Signal processing books        | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 - [Signal Processing](signal-processing/) - Signal processing books
 
-### 🛠️ Applications
+### 🛠️ Real-World Application
 #### 🚗 Automotive
-- [ADAS](automotive/adas/) - ADAS books
-- [Safety](automotive/safety/) - Safety books
-- [Self-Driving Cars](automotive/self-driving-cars/) - Autonomous driving books
-- [Standards](automotive/standards/) - Standards books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Automotive (Root)         | Automotive-related books       | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| ADAS                      | ADAS books                    | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Safety                    | Safety books                  | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Self-Driving Cars         | Autonomous driving books      | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+| Standards                 | Standards books               | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🔒 Cybersecurity
-- [Cyber Security](security/) - Cybersecurity books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Cybersecurity (Root)      | Cybersecurity books            | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🎮 Game Development
-- [Game Development](game/) - Game dev books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Game Development (Root)   | Game development books         | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🏥 Healthcare
-- [Healthcare](healthcare/) - Healthcare tech books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Healthcare (Root)         | Healthcare tech books          | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
 #### 🤖 Robotics
-- [Robotics](robotics/) - Robotics books
+
+| Topic                     | Description                    | Google Drive                                                  |      
+|---------------------------|--------------------------------|----------------------------------------------------|
+| Robotics (Root)           | Robotics books                 | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
+[Back To Top ⬆️](#-topics)
 
 ## Contributing
-Want to add a book or a relevant computer science resource?
-1. Fork the repository
-2. Create a new branch
-3. Add your book/resource
-4. Submit a pull request
+
+Want to add a book into the Stack?
+1. Upload the book to the appropriate Google Drive subfolder (e.g., `CS Books/topic/computer-vision/`).
+2. Open a pull request to update this `books.md` with the book’s table in the correct section, as shown below.
+
+| Title                                      | Edition | Year | Author           | Link                                              |
+|--------------------------------------------|---------|------|------------------|--------------------------------------------------|
+| Computer Vision: Algorithms and Applications | 2nd     | 2010 | Richard Szeliski | [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff)](#) |
+
+3. Include the title, edition, year, author, and a link to the Google Drive subfolder with the "Google Drive" badge.
 ---
 
 >### I am deeply grateful to all the authors and researchers who have worked tirelessly on these incredible books, which have not only shaped the field of Computer Science but also enriched our knowledge and lives. 
