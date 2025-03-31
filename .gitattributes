@@ -1,1 +1,2 @@
-
+# No LFS tracking. PDFs migrated to an external storage for scalability
+*.pdf -filter -differ -merge
